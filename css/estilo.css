@@ -1,0 +1,111 @@
+body{
+    
+    font-family: cursive;
+}
+h1{
+    color:black;
+    font-family: 'Russo One', sans-serif;
+}
+
+header h1{
+    text-shadow: 0px 0px 30px rgba(0,0,0,0.5);
+    border-bottom: solid;
+    padding-bottom: 10px;
+    border-width: 1px;
+    border-color: #5ea6ef
+}
+#contenido{
+    width: 960px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+    color: black;
+    cursor: pointer;
+    padding: 5px;
+}
+nav ul li:hover{
+    background-color:#babac3;
+    border-radius:5px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+}
+
+nav ul li a{
+    text-decoration: none;
+}
+#textoPr{
+    width: 600px;
+    height: 300px;
+    background-color: #babac3;
+    color: #ffffff;
+    margin: 0 auto;
+    text-align: left;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+}
+
+a{
+    color:black;
+    font-weight: bold;
+    
+}
+
+#micanvas{
+    height: 100%
+}
+
+meter{
+    width: 200px;
+    padding: 5px;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+
+label{
+    display: block;
+}
+#btnSubmit{
+    border: none;
+    background-color: #fff;
+    color: black;
+    padding: 4px;
+    margin: 20px;
+    cursor: pointer;
+    
+}
+
+form{
+    margin-top: -15px;
+}
+
+#calificacion{
+    width: 150px;
+    background-color: aqua;
+    height: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    -moz-appearance:none;
+    -moz-appearance: none;
+    
+}
+#mediaC{
+    box-sizing: border-box;
+}
+
+.particion{
+    margin-top: -20px;
+    display: inline-block;
+    width: 45%;
+}
+
+#mediaC audio{
+    width: 200px;
+}
+
+#mediaC video{
+    height: 180px;
+}

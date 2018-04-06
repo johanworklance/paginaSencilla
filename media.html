@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <link rel=stylesheet href="css/estilo.css">
+        
+        <link href='https://fonts.googleapis.com/css?family=Russo+One' rel='stylesheet'>
+    </head>
+    <body>
+        <div id="contenido">
+            <header>
+                <h1>pagina sencilla</h1>
+                    <nav>
+                        <ul>
+                           <li><a href="index.html">Inicio</a></li>
+                            <li><a href="conocimientos.html">Conocimientos</a></li>
+                            <li><a href="contacto.html">Contacto</a></li>
+                            <li><a href="media.html">Media</a></li>
+                        </ul>
+                    </nav>
+            </header>
+            <section>
+                <div id="textoPr">
+                    <h1>Media</h1>
+                    <div id="mediaC">
+                        <div class="particion" style="margin-right:50px">
+                            <h2 >Video</h2>
+                            <video width="320" height="240" controls="controls">
+                                <source src="video/Cubs%20First%20Steps.mp4" type="video/mp4">
+                                Tu navegador no es compatible con Html5
+                            </video>
+                        </div>
+                        <div class="particion">
+                            <h2>Audio</h2>
+                            <audio controls="controls">
+                                <source src="sound/toby%20fox%20-%20UNDERTALE%20Soundtrack%20-%2087%20Hopes%20and%20Dreams.mp3">
+                            </audio>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+        </div>
+        <footer>
+            <canvas id="micanvas">
+            </canvas>
+        </footer>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/principal.js"></script>
+    </body>
+</html>
